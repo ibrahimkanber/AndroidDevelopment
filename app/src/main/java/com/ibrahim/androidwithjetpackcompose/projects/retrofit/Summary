@@ -1,0 +1,10 @@
+Steps to fetch data via Retrofit library
+1.Add retrofit as dependency
+2.Create data class to serialize data
+    points:  @SerializedName("userId") @Expose var userId:Int,
+3.Create Dao interface
+    points: Call<T> and @GET ,@POST annotation
+    ! @FormUrlEncoded annotation
+4.Create retrofit client
+5.Create ApiUtils and implement Dao interface getter function with using retrofit client
+6.Call ApiUtils.getUsersDao() methode and reach the interface then implement enqueue function and callbacks
