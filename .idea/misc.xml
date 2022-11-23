@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/compose-model-1656250733739.xml" value="0.555956678700361" />
+        <entry key="../../../../layout/compose-model-1656441397682.xml" value="0.44404332129963897" />
+        <entry key="../../../../layout/compose-model-1657054583999.xml" value="0.3249097472924188" />
+        <entry key="../../../../layout/compose-model-1657088021496.xml" value="0.3249097472924188" />
+        <entry key="../../../../layout/compose-model-1657174747805.xml" value="0.22021660649819494" />
+        <entry key="../../../../layout/compose-model-1657225803376.xml" value="0.38267148014440433" />
+        <entry key="../../../../layout/compose-model-1657275759228.xml" value="0.24548736462093862" />
+        <entry key="app/src/main/res/drawable-v24/add_new_image.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/casino.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/mood_bad.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/mood_good.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

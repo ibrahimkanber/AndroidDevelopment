@@ -1,0 +1,18 @@
+package com.ibrahim.androidwithjetpackcompose.projects.contacts.viewmodel
+
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.ViewModel
+import com.ibrahim.androidwithjetpackcompose.projects.contacts.repo.ContactsDaoRepository
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+
+class ContactDetailViewModel (application: Application) : AndroidViewModel(application) {
+    private val contactRepository=ContactsDaoRepository(application)
+    fun updateContact(id: Int, personName: String, personTel: String) {
+        CoroutineScope(Dispatchers.Main).launch{
+        contactRepository.update(id,personName,personTel)
+        }
+    }
+}
